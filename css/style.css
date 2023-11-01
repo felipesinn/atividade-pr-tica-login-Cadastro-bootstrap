@@ -1,0 +1,9 @@
+.done {
+  background: #302d2d;
+}
+
+.done h3 {
+  color: #f9f9f9;
+  text-decoration: line-through;
+  font-style: italic;
+}
