@@ -27,7 +27,13 @@
 
           </div>
           <div class="col">
-            <button id="btn-sair" class="btn btn-dark">Sair</button>
+            <button id="btn-sair" class="btn btn-dark"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-log-out">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                <polyline points="16 17 21 12 16 7" />
+                <line x1="21" x2="9" y1="12" y2="12" />
+              </svg></button>
           </div>
         </div>
       </div>
@@ -37,7 +43,7 @@
   <main class="d-flex justify-content-center align-items-center login my-2">
     <div class="todo-container">
       <div class="col text-center">
-        <h1>Lista de Recados </h1>
+        <h1 class="text-white">Lista de Recados </h1>
       </div>
       <form id="todo-form">
         <div class="input-group mb-3">
@@ -58,7 +64,7 @@
       </form>
       <div id="toolbar" class="mb-3">
         <div id="search" class="d-flex justify-content-between">
-          <h4>Pesquisar:</h4>
+          <h4 class="text-white">Pesquisar:</h4>
           <form class="input-group">
             <input type="text" id="search-input" class="form-control" placeholder="Buscar..." />
             <button id="erase-button" class="btn btn-danger">
@@ -67,7 +73,7 @@
           </form>
         </div>
         <div id="filter">
-          <h4>Filtrar:</h4>
+          <h4 class="text-white">Filtrar:</h4>
           <select id="filter-select" class="form-select">
             <option value="all">Todos</option>
             <option value="done">Feitos</option>
@@ -75,7 +81,7 @@
           </select>
         </div>
       </div>
-      <div id="todo-list"></div>
+      <div id="todo-list" style="color: white;"></div>
 
     </div>
 
